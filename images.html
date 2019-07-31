@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image grid</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dogbrowser.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!---------NAVIGATION BAR--------->
+    <div class="container-fluid">
+        <header class="row">
+            <nav id="main-navigation" class="col navbar navbar-expand-sm bg-white sticky-top">
+
+                <div class="navbar-brand logo">
+                    <h1>Find a Fido
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYMLRVt7ttJEZcvkL8bt_bEDsBFkU8gapaec1Q8_YM_JbkD6ap"
+                            alt="logo" width="75px" height="75px" />
+                    </h1>
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <!-------- LINKS ------------>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul id="navBarList" class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="main.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="search.html">SEARCH</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="images.html">IMAGES</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+
+
+<!----------------IMAGE GRID------------>
+    <div class="container-fluid">
+            <div class="row text-center">
+              <div class="col-md-10 offset-md-1">
+                <h1>Image Grid</h1>        
+                  <div id="imageGrid" class="card-deck mb-3 text-center"> </div>
+                  <button id = "grid" class="btn btn-primary grid">Refresh Grid</button>
+              </div>
+            </div>
+          </div>
+
+    <!-----------------FOOTER------------->
+
+    <footer class="mainfooter" role="contentinfo">
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6">
+
+                        <!--Column1-->
+                        <div class="footer-pad">
+                            <h6>COMPANY INFO</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#"></a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">Tell a Friend</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+
+                        <!--Column2-->
+                        <div class="footer-pad">
+                            <h6>PARTNERS</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#"></a></li>
+                                <li><a href="#">Pet Charities</a></li>
+                                <li><a href="#">Link To Us</a></li>
+                                <li><a href="#">Sites We Like</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+
+                        <!--Column3-->
+                        <div class="footer-pad">
+                            <h6>CUSTOMER SERVICE</h6>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <h4>Follow Us</h4>
+                        <ul class="social-network social-circle">
+                            <li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="#" class="icoInstagram" title="Linkedin"><i class="fa fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 copy">
+                        <p class="text-center">&copy; Copyright 2019 - Find a Fido. All rights reserved.</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <!-------------SCRIPTS---------------->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="images.js"></script>
+</body>
+
+</html>
