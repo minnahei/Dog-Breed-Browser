@@ -5,7 +5,7 @@ Worked with an API (thedogapi.com) to make a browser where you can find a breed 
 - What exactly is an API and how to use it
 - Javascript, HTML & CSS
 - Use Postman
-- local storage
+- Local storage
 
 
 
