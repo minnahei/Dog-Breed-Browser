@@ -7,9 +7,9 @@ Worked with an API (thedogapi.com) to make a browser where you can find a breed 
 - Use Postman
 - local storage
 
-<img src="https://user-images.githubusercontent.com/50208723/63636074-ae9f0180-c66a-11e9-9984-b108335604f4.png" width="800" height="500">
 
 
+<img src="https://user-images.githubusercontent.com/50208723/63636210-9af49a80-c66c-11e9-99b8-93115d09b7d5.png" width="800" height="500">
 
 
 
